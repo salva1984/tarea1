@@ -17,10 +17,10 @@ class Reserva {
     private Date fecha;
     private String preferencias;
     private Vuelo vuelo;
-    private EstadoIncedente incidente;
+    private EstadoIncidente incidente;
     private Vehiculo vehiculo;
 
-    public Reserva(int idReserva, Pago pago, String destino, Date fecha, String preferencias, Vuelo vuelo, EstadoIncedente incidente, Vehiculo vehiculo) {
+    public Reserva(int idReserva, Pago pago, String destino, Date fecha, String preferencias, Vuelo vuelo, EstadoIncidente incidente, Vehiculo vehiculo) {
         this.idReserva = idReserva;
         this.pago = pago;
         this.destino = destino;
