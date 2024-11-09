@@ -1,0 +1,15 @@
+private int idReserva;
+    private Pago pago;
+    private String destino;
+    private Date fecha;
+    private String preferencias;
+    private Vuelo vuelo;
+    private Incidente incidente;
+    private Vehiculo vehiculo;
+    private int costoTotal;
+
+    public void confirmarReserva() {}
+    public void cancelarReserva() {}
+    public void verificarDisponibilidad() {}
+    public void reportarIncidente() {}
+}
